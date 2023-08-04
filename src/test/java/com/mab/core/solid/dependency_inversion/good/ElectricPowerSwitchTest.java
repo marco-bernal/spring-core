@@ -4,11 +4,11 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class ElectricPowerSwitchTest {
-
     @BeforeEach
     void setUp() {
     }
 
+    //TODO: Fimnish tests
     @Test
     void shouldTurnOnWhenObjectIsABulb() {
         //given

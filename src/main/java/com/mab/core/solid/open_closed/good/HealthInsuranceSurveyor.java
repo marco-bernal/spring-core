@@ -4,7 +4,6 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class HealthInsuranceSurveyor extends InsuranceSurveyor {
-
     @Override
     public boolean isValidClaim() {
         log.info("HealthInsuranceSurveyor: Validating health insurance claim...");

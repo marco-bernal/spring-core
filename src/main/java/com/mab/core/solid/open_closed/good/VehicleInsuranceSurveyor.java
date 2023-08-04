@@ -4,7 +4,6 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class VehicleInsuranceSurveyor extends InsuranceSurveyor {
-
     @Override
     public boolean isValidClaim() {
         log.info("VehicleInsuranceSurveyor: Validating vehicle insurance claim...");

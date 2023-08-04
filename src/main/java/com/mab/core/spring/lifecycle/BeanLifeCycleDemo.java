@@ -20,13 +20,13 @@ public class BeanLifeCycleDemo implements InitializingBean, DisposableBean, Bean
     }
 
     @Override
-    public void destroy() throws Exception {
+    public void destroy() {
         log.info("## The Lifecycle bean has been terminated ##");
 
     }
 
     @Override
-    public void afterPropertiesSet() throws Exception {
+    public void afterPropertiesSet() {
         log.info("## The LifeCycleBean has its properties set! ##");
 
     }

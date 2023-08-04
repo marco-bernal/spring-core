@@ -1,7 +1,6 @@
 package com.mab.core.spring.di.ex1;
 
 class ManualDIController {
-
     private final ManualDIService manualDIService;
 
     // Manual DI by constructor

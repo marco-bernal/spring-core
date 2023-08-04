@@ -1,7 +1,9 @@
 package com.mab.core.solid.interface_segregation.good;
 
-public class ToyBuilder {
+import lombok.experimental.UtilityClass;
 
+@UtilityClass
+public class ToyBuilder {
     public static ToyHouse buildToyHouse() {
         ToyHouse toyHouse = new ToyHouse();
         toyHouse.setPrice(15.00);

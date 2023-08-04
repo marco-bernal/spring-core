@@ -2,6 +2,7 @@ package com.mab.core.solid.interface_segregation.good;
 
 import org.junit.jupiter.api.Test;
 
+//TODO: Finish tests
 class ToyBuilderTest {
 
     @Test

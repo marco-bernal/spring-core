@@ -32,5 +32,4 @@ class ManualDIControllerTest {
         //then
         assertThat(englishGreeting).isEqualTo("Sup bro!");
     }
-
 }
