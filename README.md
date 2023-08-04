@@ -25,3 +25,5 @@ Repo that showcases examples of spring core.
     * JPA Repositories
     * Relationships
     * Inheritance
+
+Test codeowners
