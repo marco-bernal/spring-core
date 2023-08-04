@@ -6,7 +6,6 @@ package com.mab.core.solid.dependency_inversion.good;
  * Plus, Single Responsibility is covered and Interface Segregation too
  **/
 public class ElectricPowerSwitch implements Switch {
-
     Switchable client;
     boolean on;
 

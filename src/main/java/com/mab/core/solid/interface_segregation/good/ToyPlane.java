@@ -4,7 +4,6 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class ToyPlane implements Toy, Moveable, Flyable {
-
     private double price;
     private String color;
 

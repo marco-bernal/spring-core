@@ -10,7 +10,6 @@ import org.springframework.context.ApplicationContext;
 @Slf4j
 @SpringBootApplication
 public class SpringCoreApplication {
-
     public static void main(String[] args) {
         ApplicationContext ctx = SpringApplication.run(SpringCoreApplication.class, args);
 

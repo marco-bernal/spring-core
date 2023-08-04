@@ -14,13 +14,12 @@ class ClaimApprovalManagerTest {
     @BeforeEach
     void setUp() {
         claimApprovalManager = new ClaimApprovalManager();
+        healthInsuranceSurveyor = new HealthInsuranceSurveyor();
+        vehicleInsuranceSurveyor = new VehicleInsuranceSurveyor();
     }
 
     @Test
     void shouldProcessHealthInsuranceClaim() {
-        //given
-        healthInsuranceSurveyor = new HealthInsuranceSurveyor();
-
         //when
         boolean result = claimApprovalManager.processClaim(healthInsuranceSurveyor);
 
@@ -31,9 +30,6 @@ class ClaimApprovalManagerTest {
 
     @Test
     void shouldProcessVehicleInsuranceClaim() {
-        //given
-        vehicleInsuranceSurveyor = new VehicleInsuranceSurveyor();
-
         //when
         boolean result = claimApprovalManager.processClaim(vehicleInsuranceSurveyor);
 

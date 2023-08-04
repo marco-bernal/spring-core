@@ -1,7 +1,6 @@
 package com.mab.core.solid.interface_segregation.good;
 
 public class ToyHouse implements Toy {
-
     private double price;
     private String color;
 

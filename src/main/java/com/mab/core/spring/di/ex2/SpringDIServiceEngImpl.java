@@ -4,7 +4,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class SpringDIServiceEngImpl implements SpringDIService {
-
     @Override
     public String greet() {
         return "What up bruh!";

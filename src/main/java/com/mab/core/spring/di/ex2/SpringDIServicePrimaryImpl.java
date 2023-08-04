@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 @Primary
 @Service
 public class SpringDIServicePrimaryImpl implements SpringDIService {
-
     @Override
     public String greet() {
         return "Hey there from primary bean!";

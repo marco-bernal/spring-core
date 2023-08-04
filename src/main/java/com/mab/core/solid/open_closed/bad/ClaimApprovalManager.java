@@ -2,10 +2,8 @@ package com.mab.core.solid.open_closed.bad;
 
 import lombok.extern.slf4j.Slf4j;
 
-//TODO: Fix all sonarlint issues
 @Slf4j
 public class ClaimApprovalManager {
-
     public void processHealthClaim(HealthInsuranceSurveyor surveyor) {
         if (surveyor.isValidClaim()) {
             log.info("ClaimApprovalManager: Valid claim. Currently processing claim for approval....");

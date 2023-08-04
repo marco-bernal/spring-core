@@ -8,13 +8,11 @@ import org.springframework.stereotype.Component;
 @Slf4j
 @Component
 public class CustomBeanPostProcessor implements BeanPostProcessor {
-
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
         if (bean instanceof BeanLifeCycleDemo) {
             ((BeanLifeCycleDemo) bean).beforeInit();
         }
-
         return bean;
     }
 
@@ -23,7 +21,6 @@ public class CustomBeanPostProcessor implements BeanPostProcessor {
         if (bean instanceof BeanLifeCycleDemo) {
             ((BeanLifeCycleDemo) bean).afterInit();
         }
-
         return bean;
     }
 }

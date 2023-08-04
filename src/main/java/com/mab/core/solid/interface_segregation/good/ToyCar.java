@@ -4,7 +4,6 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class ToyCar implements Toy, Moveable {
-
     private double price;
     private String color;
 

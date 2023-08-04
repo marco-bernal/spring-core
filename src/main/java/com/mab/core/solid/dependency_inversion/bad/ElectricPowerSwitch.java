@@ -6,7 +6,6 @@ package com.mab.core.solid.dependency_inversion.bad;
  * turn on/off a fan, AC, or another object wouldn't be possible.
  */
 public class ElectricPowerSwitch {
-
     public LightBulb lightBulb;
     public boolean on;
 
